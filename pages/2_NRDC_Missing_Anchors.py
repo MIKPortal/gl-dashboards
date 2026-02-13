@@ -8,6 +8,7 @@ import os
 st.set_page_config(page_title="NRDC Missing Anchors Monitor", layout="wide")
 
 # 2. Data Loading with Caching
+
 @st.cache_data
 def load_data():
     # This finds the absolute path of the folder containing THIS script
